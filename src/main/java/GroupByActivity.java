@@ -73,7 +73,6 @@ public class GroupByActivity {
         } catch (SQLException e) {
             System.out.println("problem1: " + e.getMessage() + '\n');
         }
-
         return counts;
     }
 
